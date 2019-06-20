@@ -14,8 +14,6 @@ public class ThirdTask {
 
         char[] world = {'w','o','r','l','d'}; //Создайте массив символов, положите туда все символы слова world
         System.out.println(world); //Вывести массив в консоль
-        String b = new String(world);
-        System.out.println(world.length);
-
+        System.out.println(world[world.length -2]); // Вывести в консоль предпоследний элемент массива
     }
 }
